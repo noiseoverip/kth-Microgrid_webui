@@ -1,0 +1,83 @@
+/* reset styles */
+html, body, h1, h2, p, ul, li{
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+/* end reset styles */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 1024px;
+	margin: auto;
+	border: 0;
+}
+.top-nav{
+	height: 150px;
+	color: #fff;
+}
+.top-nav .logo{
+	border-width: 2px;
+	border-right-style: dotted;
+	border-color: #6D6968; 
+	margin: 0 2px 0 0;
+	width: 180px;
+	height: 150px;
+	float: left;
+}
+.top-nav .logo img{
+	padding: 25px 0 0 40px;
+}
+
+.left-line{
+	border-width: 2px;
+	border-bottom-style: dotted;
+	border-color: #6D6968; 
+	margin: 5px 0 5px 0;
+	width: 175px;
+	float: left;
+	height: 0;
+}
+.right-line{
+	border-width: 2px;
+	border-bottom-style: dotted;
+	border-color: #6D6968; 
+	margin: 5px 0 5px 0;
+	width: 839px;
+	float: right;
+	height: 0;
+}
+
+.main{
+	margin: 12px 0 0 0;
+	width: 1024px;
+	height: 700px;
+}
+.main .left-bar{
+	border-width: 2px;
+	border-right-style: dotted;
+	border-color: #6D6968; 
+	width: 180px;
+	height: 700px;
+	float: left;
+}
+.main .left-bar ul.menu {
+	padding: 40px 0 0 50px;
+	list-style-type: none;
+}
+.main .left-bar ul.menu li {
+	padding: 5px 0 5px 0;
+}
+.main .left-bar ul.menu a {
+	color: #006738;
+	text-decoration: none;
+}
+.main .right{
+	float: right;
+	width: 842px; 
+	height: 700px;
+}
+.main .right p{
+	padding: 40px 0 0 50px;
+}
